@@ -1,0 +1,58 @@
+@use 'variables' as *;
+
+// セクションの見出し
+.section-head {
+    margin-bottom: 96px;
+
+    &__ja {
+        margin-bottom: 16px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    &--brown {
+        color: $mainColor2;
+    }
+
+    &--white {
+        color: $texkColor2;
+    }
+}
+
+.nav {
+    &-menu {
+        display: flex;
+        align-items: center;
+        column-gap: 32px;
+    }
+}
+
+.fa-instagram {
+    font-size: 24px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4px;
+    width: 212px;
+    height: 48px;
+    border-radius: 4px;
+    font-family: $sans;
+
+    &--fill {
+        background-color: $mainColor1;
+        color: $texkColor2;
+    }
+
+    .fa-envelope {
+        font-size: 16px;
+        margin-top: 2px;
+    }
+
+    &--stroke {
+        border: 2px solid $mainColor1;
+        color: $mainColor1;
+    }
+}
