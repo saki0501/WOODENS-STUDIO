@@ -15,7 +15,7 @@
     }
 
     &--white {
-        color: $texkColor2;
+        color: $textColor2;
     }
 }
 
@@ -43,7 +43,7 @@
 
     &--fill {
         background-color: $mainColor1;
-        color: $texkColor2;
+        color: $textColor2;
     }
 
     .fa-envelope {
@@ -54,5 +54,26 @@
     &--stroke {
         border: 2px solid $mainColor1;
         color: $mainColor1;
+    }
+}
+
+// ソーシャルアイコン
+.social-icons {
+    display: flex;
+    column-gap: 16px;
+
+    .social-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: $accentColor;
+
+        &__icon {
+            color: $textColor2;
+            font-size: 24px;
+        }
     }
 }
